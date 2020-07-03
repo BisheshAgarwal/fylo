@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    background-image: url(../images/bg-desktop.png);
+    background-size: cover;
+    background-color: hsl(229, 57%, 11%);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.hero {
+    width: 1000px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    display: block;
+    margin-bottom: 35px;
+}
+
+i {
+    font-size: 150%;
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: hsl(229, 7%, 55%);
+}
+
+.margin1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 100px;
+    padding: 40px 80px 40px 40px;
+    background-color: hsl(228, 56%, 26%);
+}
+
+.margin2 {
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: hsl(228, 56%, 26%);
+    padding: 40px 50px 50px 40px;
+}
+
+p {
+    color: hsl(243, 100%, 93%);
+    margin-bottom: 20px;
+}
+
+span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.slider {
+    display: block;
+    width: 100%;
+    height: 25px;
+    border-radius: 50px;
+    outline: none;
+    background-color: hsl(229, 57%, 11%);
+    margin-bottom: 10px;
+    padding: 3px 3px;
+}
+
+.innerSlider{
+    width: 70%;
+    height: 19px;
+    border-radius: 50px;
+    padding: 3px 2px;
+    background-image: linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.sliderThumb{
+    width: 13px;
+    height: 13px;
+    border-radius: 100px;
+    background-color: #fff;
+    float: right;
+}
+
+.floatingBox{
+    position: absolute;
+    background-color: #fff;
+    padding: 15px 20px;
+    width: 20%;
+    right: 5%;
+    top: -5%;
+    border-radius: 10px;
+}
+
+.number, .text{
+    color: #000;
+}
+
+.number{
+    font-size: 300%;
+    vertical-align: middle;
+}
+
+.text{
+    color: hsl(229, 7%, 55%);
+}
+
+.border{
+    position: absolute;
+    right: 5%;
+    top: 18%;
+    height: 40px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 15px solid #fff;
+}
+
+.max,
+.min {
+    color: hsl(243, 100%, 93%);
+}
+
+.max {
+    float: right;
+}
